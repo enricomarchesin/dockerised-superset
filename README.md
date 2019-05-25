@@ -56,3 +56,11 @@ In a few seconds the service should be reachable at:
 Log in with the username and password chosen in the initialisation step.
 
 _Hurray!_ 🎊
+
+## Not enough? Someone said PostgreSQL?
+
+For more advanced configuration, take a look at the `examples` folder of the source repo fo the Docker image:
+
+- https://github.com/amancevice/docker-superset/tree/master/examples
+
+PostgreSQL, MySQL, Celery... Enjoy!
