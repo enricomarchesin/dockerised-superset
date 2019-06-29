@@ -3,7 +3,7 @@ services:
   redis:
     image: redis
   superset:
-    image: amancevice/superset
+    image: amancevice/superset:0.28.1
     restart: always
     depends_on:
       - redis
