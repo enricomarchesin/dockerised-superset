@@ -1,16 +1,16 @@
-# Dockerized Superset
+# Dockerised Superset
 
 While trying to setting up a minimal Apache Superset instance, I've struggled quite a lot to get it up and running.
 
 After struggling a little with virtual envs, I tried to follow the intructions for the container version, but it looks like the official instructions are not working on MacOS 10.14.4 (Mojave).
 
-This is the cleanest and quickest way I;ve found to play with Apache Superset and explore its features.
+This is the cleanest and quickest way I've found to play with Apache Superset and start exploring its features.
 
 The only pre-requisite is a working Docker installation. For help on this, take a look at:
 
 - https://docs.docker.com/install/
 
-**NOTE: All data is saved in a `sqlite` database that lives in the file "data/superset.db". Not the best setup for a  production environment, of course! 😅**
+**NOTE: by default, all data is saved in a `sqlite` database that lives in the file "data/superset.db". Not the best setup for a  production environment, of course! 😅**
 
 ## First time setup
 
