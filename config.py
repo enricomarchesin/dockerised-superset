@@ -9,6 +9,7 @@ CACHE_CONFIG = {
     'CACHE_REDIS_DB': 1,
     'CACHE_REDIS_URL': 'redis://redis:6379/1'}
 SQLALCHEMY_DATABASE_URI = 'sqlite:////var/lib/superset/superset.db'
+PUBLIC_ROLE_LIKE_GAMMA = True
 
 # Modify these, if needed
 SECRET_KEY = 'sdfjk---CHANGE-ME---34534534lkkjlkjasd'

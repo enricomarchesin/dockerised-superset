@@ -3,11 +3,12 @@ services:
   redis:
     image: redis
   superset:
-    image: amancevice/superset:0.28.1
+    image: amancevice/superset:0.27.0
     restart: always
     depends_on:
       - redis
     environment:
+      TZ: UTC
       SUPERSET_HOME: /etc/superset
     ports:
       - "8088:8088"
